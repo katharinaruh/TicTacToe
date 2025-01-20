@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,13 +22,13 @@
             width: 100px;
             height: 100px;
             background-color: #fff;
-            border: 2px solid neonpink;
+            border: 2px solid #ff00ff;
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 2.5rem;
             font-weight: bold;
-            color: neonpink;
+            color: #ff00ff;
             cursor: pointer;
         }
         .cell.taken {
@@ -40,7 +40,7 @@
         #winner {
             margin-top: 20px;
             font-size: 1.5rem;
-            color: neonpink;
+            color: #ff00ff;
         }
         #confetti {
             display: none;
@@ -50,7 +50,7 @@
     </style>
 </head>
 <body>
-    <h1>Neon Tic-Tac-Toe</h1>
+    <h1 style="color: #ff00ff;">Neon Tic-Tac-Toe</h1>
     <div class="board" id="board"></div>
     <div class="scoreboard">
         <p>Runde: <span id="round">1</span>/5</p>
@@ -154,3 +154,4 @@
     </script>
 </body>
 </html>
+
